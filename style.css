@@ -1,1 +1,52 @@
-/* Acá va tu código */
+
+.cifrado, .decifrado{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #cae2e5; 
+}
+
+.offset1 , .offset2{
+    width: 120px;
+    height: 30px;
+    background-color: #cae2e5;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    position: center;
+    color: #01175d;
+}
+
+body{
+    background-image: url(../src/img/fondo.png);
+    background-color: #04315b;
+    background-size: 1800px;
+}
+.fondo{
+    background-image: url(../src/img/franja2.png);
+    background-position: center; 
+    padding: 2%;
+    background-size: contain;
+}
+
+.box1, .box2{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+p1 ,  h3 , ul{
+    color: #d4e3de;
+}
+
+p2 , p3{
+    color: #66ffd3;
+}
+
+.boton{
+background-color: #2ec6b7;
+border-radius: 5px;
+}
+
