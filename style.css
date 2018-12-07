@@ -20,12 +20,12 @@ h1 {
 }
 
 body{
-    background-image: url(../src/img/fondo.png);
+    background-image: url(img/fondo.png);
     background-color: #04315b;
     background-size: 1800px;
 }
 .fondo{
-    background-image: url(../src/img/franja2.png);
+    background-image: url(img/franja2.png);
     background-position: center; 
     padding: 2%;
     background-size: contain;
