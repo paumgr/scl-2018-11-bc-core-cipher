@@ -43,10 +43,23 @@ p1 ,  h3 , ul{
 
 p2 , p3{
     color: #66ffd3;
+
 }
 
 .boton{
 background-color: #2ec6b7;
 border-radius: 5px;
+}
+
+.link{
+    margin-left: 40%;
+}
+#reset{
+    width: 300px;
+    height: 100px;
+    background-color: #f4eea5;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 25%;
 }
 

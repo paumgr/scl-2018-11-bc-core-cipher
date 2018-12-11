@@ -1,77 +1,89 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cifrado Cesar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" />
-  
-</head>
-<body>
-    <section
-    class="fondo">
-    <h1>SafetyCodes</h1>
-<div align="center" ><img src="https://images.vexels.com/media/users/3/144337/isolated/preview/59ee746696d8fb0b42267295ed9a24b0-candado-de-candado-abierto-by-vexels.png" height="10%" width="10%"></div>
-    
-</section>
-    
-<div>
 
-    <p1>SAFETYCODES es una aplicación sumamente segura: Te servirá para enviar contraseñas cifradas para que nadie, 
-        excepto la persona a quien se la envías, pueda robartela y usarla de manera malisiosa, ya que, esta basada en el Cifrado Cesar 
-        el cual es un cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que
-         se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, 
-         la A sería sustituida por la D (situada 3 lugares a la derecha de la A), la Bsería reemplazada por la E, etc. .</p1><br>
+</head>
+
+<body>
+    <section class="fondo">
+        <h1>SafetyCodes</h1>
+        <div align="center"><img src="https://images.vexels.com/media/users/3/144337/isolated/preview/59ee746696d8fb0b42267295ed9a24b0-candado-de-candado-abierto-by-vexels.png"
+                height="10%" width="10%"></div>
+
+    </section>
+
+    <div>
+
+        <p1>SAFETYCODES es una aplicación sumamente segura: Te servirá para enviar contraseñas cifradas para que nadie,
+            excepto la persona a quien se la envías, pueda robartela y usarla de manera malisiosa, ya que, esta basada
+            en el Cifrado Cesar
+            el cual es un cifrado por sustitución en el que una letra en el texto original es reemplazada por otra
+            letra que
+            se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento
+            de 3,
+            la A sería sustituida por la D (situada 3 lugares a la derecha de la A), la Bsería reemplazada por la E,
+            etc. .</p1><br>
+
+            <a class="link" target="_blank" href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar">¿Qué es Cifrado Cesar?</a>
     </div>
-        <h3>Instrucciones </h3>
+    <h3>Instrucciones </h3>
     <ul>
         <li>Solo puedes utilizar letras de la A a la Z.</li>
         <li>No puedes utilizar la letra Ñ, ni acentos, ni simbolos, ni signos.</li>
         <li>Para cifrar o decifrar debes agregarle un desplazamiento</li>
     </ul><br>
 
-<div class="box1">
-     <p2>Escribe aquí la contraseña que deseas Cifrar</p2>  <br>
-<form>
-  <div>
-  <!-- <input type="text"  id="cifrado"  class="cifrado"> -->
-  <textarea name="text" id="cifrado" cols="30" rows="10" class="cifrado"></textarea>
-  </div>
+    <div class="box1">
+        <p2>Escribe aquí la contraseña que deseas Cifrar</p2> <br>
+        <form>
+            <div>
+                <!-- <input type="text"  id="cifrado"  class="cifrado"> -->
+                <textarea name="text" id="cifrado" cols="30" rows="10" class="cifrado"></textarea>
+            </div>
 
-  <div>
-   <input type="number" id="offset" class="offset1" min="1" max="26" placeholder="DESPLAZAMIENTO">
-  </div>
-   <button type="button" id="botonOk" class="boton" ><strong>CIFRAR</strong></button>
-  </form>
-   <div id="contenedor1"> </div>
-</div>
-
-
-<div class="box2"> 
-<p3>Escribe aquí la contraseña que deseas Decifrar</p3><br>
-<form>
-<div>
-
- <textarea name="text" id="decifrado" cols="30" rows="10" class="decifrado"></textarea>
-</div>
-<div>
- <input type="number" id="offset2" class="offset2" min="1" max="26" placeholder="DESPLAZAMIENTO">
- </div>
- <button type="button" id="botonOk2" class="boton"><strong>DESCIFRAR</strong></button>
-</form>
-<div id="contenedor2">
+            <div>
+                <input type="number" id="offset" class="offset1" min="1" max="26" placeholder="DESPLAZAMIENTO">
+            </div>
+            <button type="button" id="botonOk" class="boton"><strong>CIFRAR</strong></button>
+        </form>
+        <div id="contenedor1"> </div>
     </div>
+
+
+    <div class="box2">
+        <p3>Escribe aquí la contraseña que deseas Decifrar</p3><br>
+        <form>
+            <div>
+
+                <textarea name="text" id="decifrado" cols="30" rows="10" class="decifrado"></textarea>
+            </div>
+            <div>
+                <input type="number" id="offset2" class="offset2" min="1" max="26" placeholder="DESPLAZAMIENTO">
+            </div>
+            <button type="button" id="botonOk2" class="boton"><strong>DESCIFRAR</strong></button>
+        </form>
+        <div id="contenedor2">
+        </div>
     </div>
+
+    <div>
+        <button type="button" id="reset" onclick="reset()"><strong>LIMPIAR</strong></button>
+    </div>
+
+   
 
     <script type="text/javascript" src="index.js">
     </script>
 
-<script type="text/javascript" src="cipher.js">
-</script>
+    <script type="text/javascript" src="cipher.js">
+    </script>
 
 </body>
+
 </html>
-
-
- 
