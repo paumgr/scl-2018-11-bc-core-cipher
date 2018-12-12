@@ -20,10 +20,22 @@ window.onload = () => {
         decifrando.innerHTML = cipher.decode(decifrar, numbers)
     });
 
-}
+    const clear= document.getElementById("reset");
 
+    document.getElementById("reset1").addEventListener("click", (accionClear) => {
+        document.getElementById("cifrado").value = "";
+        document.getElementById("decifrado").value =""; 
+        document.getElementById("encriptar").value =""; 
+        document.getElementById("decifrando").value =""; 
+        
+        
+    });
+
+
+}
+/*
 function reset() {
     document.getElementById("cifrado").value = "";
     document.getElementById("decifrado").value = "";
-}
+} */
 
